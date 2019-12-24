@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #52a;
+}
+.card_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    .card{
+        flex-basis: 250px;
+        height: 180px;
+        margin: 8px;
+        background: linear-gradient(to right, rgba(0, 0, 51,.95) 50%, #003 50%);
+        .card_content{
+            text-align: center;
+            padding-top: 30px;
+            color: white;
+            font-weight: bolder;
+            text-shadow: 2px -1px 5px black;
+            font-family: sans-serif;
+        }
+    }
+}
+
+.project{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 8px;
+    background: #002;
+    color: white;
+
+}
