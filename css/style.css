@@ -1,6 +1,8 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 body {
